@@ -31,18 +31,3 @@ button:hover {
     background-color: #0073e6;
     color: white;
 }
-
-/* Stile per il bottone di ritorno */
-#backButton {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #ff6347;
-    color: white;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-#backButton:hover {
-    background-color: #e04d32;
-}
