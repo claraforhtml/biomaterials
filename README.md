@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il mio sito</title>
-    <link rel="stylesheet" href="styles.css">  <!-- Collega il file CSS -->
+    <title>La mia pagina web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Benvenuti nel mio sito</h1>
-    
-    <h2>Seleziona un contenuto</h2>
-    <ul>
-        <!-- Modifica il tag a in un bottone per evitare navigazione -->
-        <li><button onclick="caricaContenuto(event, 'contenuto1.html')">Contenuto 1</button></li>
-    </ul>
+    <header>
+        <h1>Benvenuto sulla mia pagina web</h1>
+    </header>
 
-    <!-- Sezione dove verrà caricato il contenuto -->
-    <div id="contenuto"></div>
-
-    <script src="script.js"></script>  <!-- Collega il file JS -->
+    <nav>
+        <ul>
+            <li><a href="pagina1.html">Pagina 1</a></li>
+            <li><a href="pagina2.html">Pagina 2</a></li>
+            <li><a href="pagina3.html">Pagina 3</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
