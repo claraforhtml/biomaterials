@@ -1,4 +1,6 @@
-function caricaContenuto(pagina) {
+function caricaContenuto(event, pagina) {
+    event.preventDefault();  // Impedisce il comportamento predefinito di navigazione
+
     // Crea una richiesta AJAX per caricare il contenuto HTML
     fetch(pagina)
         .then(response => response.text())  // Ottieni il contenuto della pagina come testo
