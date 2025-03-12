@@ -29,9 +29,9 @@
     </style>
 </head>
 <body>
-    <h1>Benvenuto nel Mio Sito!</h1>
+    <h1>Osteointegration</h1>
     <div class="menu">
-        <a href="pagina1.html">Pagina 1</a>
+        <a href="pagina1.html">Intro</a>
         <a href="pagina2.html">Pagina 2</a>
         <a href="pagina3.html">Pagina 3</a>
     </div>
