@@ -11,25 +11,26 @@ body {
   padding: 20px;
 }
 
-.title-box {
-  background-color: #333; /* Colore scuro per il titolo */
+.title-bar {
+  background-color: #333; /* Colore scuro per la barra del titolo */
   padding: 20px;
   color: white;
   text-align: center;
 }
 
-.subtitle-box {
-  background-color: #555; /* Colore più chiaro per i sottotitoli */
+.subtitle-bar {
+  background-color: #555; /* Colore più chiaro per la barra dei sottotitoli */
   padding: 20px;
   color: white;
   margin-top: 10px;
 }
 
-.subtitle-box ul {
+.subtitle-bar ul {
   list-style-type: none;
   padding: 0;
 }
 
-.subtitle-box li {
+.subtitle-bar li {
   margin: 10px 0;
 }
+
