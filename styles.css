@@ -11,13 +11,20 @@
     color: white;
     text-align: center;
     padding: 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+.header-titolo h1 {
+    font-size: 2.5rem; /* Imposta una dimensione più grande per il titolo */
+    margin: 0;
 }
 
 /* Barra del Menu */
 .header-menu {
     background-color: #00bfff; /* Azzurro */
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .sottotitoli {
