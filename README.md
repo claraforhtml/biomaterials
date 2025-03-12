@@ -8,17 +8,19 @@
 </head>
 <body>
 
-    <header>
+    <header class="header-titolo">
         <h1>Benvenuto nel mio sito!</h1>
-        <div class="sottotitoli">
-            <a href="pagina1.html" class="sottotitolo">Pagina 1</a>
-            <a href="#sezione2" class="sottotitolo">Sezione 2</a>
-        </div>
     </header>
 
-    <section id="sezione2">
-        <h2>Sezione 2: Dettagli</h2>
-        <p>Contenuti di esempio per la sezione 2...</p>
+    <nav class="header-menu">
+        <div class="sottotitoli">
+            <a href="#" class="sottotitolo" onclick="loadContent('pagina1')">Pagina 1</a>
+            <a href="#" class="sottotitolo" onclick="loadContent('sezione2')">Sezione 2</a>
+        </div>
+    </nav>
+
+    <section id="contenuto">
+        <!-- Il contenuto dinamico sarà caricato qui -->
     </section>
 
     <script src="script.js"></script>
