@@ -11,8 +11,11 @@
     
     <h2>Seleziona un contenuto</h2>
     <ul>
-        <li><a href="#" onclick="apriScheda('contenuto1.html')">Contenuto 1</a></li>
+        <li><a href="#" onclick="caricaContenuto('contenuto1.html')">Contenuto 1</a></li>
     </ul>
+
+    <!-- Sezione dove verrà caricato il contenuto -->
+    <div id="contenuto"></div>
 
     <script src="script.js"></script>  <!-- Collega il file JS -->
 </body>
