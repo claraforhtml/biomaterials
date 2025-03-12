@@ -11,8 +11,7 @@
     
     <h2>Seleziona un contenuto</h2>
     <ul>
-        <!-- Modifica il tag a in un bottone per evitare navigazione -->
-        <li><button onclick="caricaContenuto(event, 'contenuto1.html')">Contenuto 1</button></li>
+        <li><button onclick="caricaContenuto('contenuto1.html')">Contenuto 1</button></li>
     </ul>
 
     <!-- Sezione dove verrà caricato il contenuto -->
