@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il mio sito</title>
-    <link rel="stylesheet" href="styles.css">  <!-- Collega il file CSS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Indice</title>
 </head>
 <body>
-    <h1>Benvenuti nel mio sito</h1>
-    
-    <h2>Seleziona un contenuto</h2>
-    <ul>
-        <!-- Modifica il tag a in un bottone per evitare navigazione -->
-        <li><button onclick="caricaContenuto(event, 'contenuto1.html')">Contenuto 1</button></li>
-    </ul>
-
-    <!-- Sezione dove verrà caricato il contenuto -->
-    <div id="contenuto"></div>
-
-    <script src="script.js"></script>  <!-- Collega il file JS -->
+  <div class="container">
+    <div class="title-box">
+      <h1>Titolo Principale</h1>
+    </div>
+    <div class="subtitle-box">
+      <ul>
+        <li>Sottotitolo 1</li>
+        <li>Sottotitolo 2</li>
+        <li>Sottotitolo 3</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
