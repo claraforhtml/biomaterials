@@ -8,10 +8,10 @@
 </head>
 <body>
   <div class="container">
-    <div class="title-box">
+    <div class="title-bar">
       <h1>Titolo Principale</h1>
     </div>
-    <div class="subtitle-box">
+    <div class="subtitle-bar">
       <ul>
         <li>Sottotitolo 1</li>
         <li>Sottotitolo 2</li>
