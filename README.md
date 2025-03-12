@@ -11,7 +11,7 @@
     
     <h2>Seleziona un contenuto</h2>
     <ul>
-        <li><a href="#" onclick="caricaContenuto('contenuto1.html')">Contenuto 1</a></li>
+        <li><a href="#" onclick="caricaContenuto(event, 'contenuto1.html')">Contenuto 1</a></li>
     </ul>
 
     <!-- Sezione dove verrà caricato il contenuto -->
