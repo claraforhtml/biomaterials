@@ -18,9 +18,6 @@
     <!-- Sezione dove verrà caricato il contenuto -->
     <div id="contenuto"></div>
 
-    <!-- Aggiungi un bottone per tornare alla pagina principale -->
-    <button id="backButton" onclick="tornaAllaPaginaPrincipale()" style="display: none;">← Torna alla pagina principale</button>
-
     <script src="script.js"></script>  <!-- Collega il file JS -->
 </body>
 </html>
